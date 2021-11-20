@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.geral{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.geral button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.container{
+    width: 750px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+.slider{
+    width: 500%;
+    display: flex;
+    transition: 1s ease;
+    border-radius: 10px;
+}
+.slider img{
+    width: 20%;
+    border-radius: 10px;
+    transition: 1s ease;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    transition: 1s ease;
+}
