@@ -20,8 +20,9 @@ function imgNext(){
         cont = 0
         first.style.marginLeft = `-${cont}%`;
     }
-    console.log(cont)
+    
 }
+
 function imgPrev(){
 
     if(cont === 0){
@@ -30,7 +31,5 @@ function imgPrev(){
         cont -= 20;
         first.style.marginLeft = `-${cont}%`;
     }
-    
 
-    console.log(cont)
 }
